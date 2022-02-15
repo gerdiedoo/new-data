@@ -1,9 +1,9 @@
 #!/bin/bash  
   
 #file name
-file='links.txt'  
+file='links-2.txt'  
 #directory name
-dir='hash-map'
+dir='data'
 mkdir $dir
 i=1  
 

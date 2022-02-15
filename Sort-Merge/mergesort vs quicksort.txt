@@ -1,0 +1,14 @@
+Typically, merge sort wouldn't be used over quick sort (to sort a given array)
+as quick sort has lower space complexity (O(1)) while typically having the same
+time complexity (O(n*logn)).
+    
+The primary cases to use merge sort over quick sort are:
+
+1) A lower time complexity (worst case: merge sort - O(nlogn), quick sort - O(n^2))
+needs to be ensured. This can be especially important if nothing is known about the
+data and/or the data needs to be sorted for real-time performance.
+
+2) A stable sort needs to be used to maintain the same elements and their positions
+in the original array; merge sort doesn't modify the original array and instead
+creates a new sorted array while quick sort performs all sorting on the original array.
+    
